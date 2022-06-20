@@ -32,4 +32,5 @@ print('Nairobi Compact length: ', len(nairobi_compact.index))
 print('Nairobi OG/4: ', str(confirmation))
 confirmation = len(paris_og.index)/4
 print('Paris OG length: ', len(paris_og.index))
-print('Paris Compact length: ', len(paris_og.index))
+print('Paris Compact length: ', len(paris_compact.index))
+print('Paris OG/4: ', str(confirmation))
