@@ -23,6 +23,6 @@ pyhton merger.py
 ### Length Confirmations
 Run:
 ```
-python length-confirmation.py
+python sanity_check/length-confirmation.py
 ```
 to get terminal outputs relating to the lenght of the original and compacted csv files.
