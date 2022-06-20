@@ -64,7 +64,7 @@ def city_merger(durham, copenhagen, johanesberg, madrid, nairobi, paris):
             paris_lcoe2 = paris_entry_rows.iat[0, 6]
             paris_lcoe5 = paris_entry_rows.iat[0,7]
             paris_lcoe10 = paris_entry_rows.iat[0,8]
-            paris_lcoe25 = durham_entry_rows.iat[0,9]
+            paris_lcoe25 = paris_entry_rows.iat[0,9]
 
             merged_df = merged_df.append({'burn_in': burn_in, 'long_term_degredation': long_term, 'initial_pce': init_pce, 'module_cost': module_cost, 'durham_two_years_lcoe': durham_lcoe2, 'durham_five_years_lcoe': durham_lcoe5, 'durham_ten_years_lcoe': durham_lcoe10, 'durham_tw_five_years_lcoe': durham_lcoe25, 'copenhagen_two_years_lcoe': copenhagen_lcoe2, 'copenhagen_five_years_lcoe': copenhagen_lcoe5, 'copenhagen_ten_years_lcoe': copenhagen_lcoe10, 'copenhagen_tw_five_years_lcoe': copenhagen_lcoe25, 'johanesberg_two_years_lcoe': johanesberg_lcoe2, 'johanesberg_five_years_lcoe': johanesberg_lcoe5, 'johanesberg_ten_years_lcoe': johanesberg_lcoe10, 'johanesberg_tw_five_years_lcoe': johanesberg_lcoe25, 'madrid_two_years_lcoe': madrid_lcoe2, 'madrid_five_years_lcoe': madrid_lcoe5, 'madrid_ten_years_lcoe': madrid_lcoe10, 'madrid_tw_five_years_lcoe': madrid_lcoe25, 'nairobi_two_years_lcoe': nairobi_lcoe2, 'nairobi_five_years_lcoe': nairobi_lcoe5, 'nairobi_ten_years_lcoe': nairobi_lcoe10, 'nairobi_tw_five_years_lcoe': nairobi_lcoe25, 'paris_two_years_lcoe': paris_lcoe2, 'paris_five_years_lcoe': paris_lcoe5, 'paris_ten_years_lcoe': paris_lcoe10, 'paris_tw_five_years_lcoe': paris_lcoe25}, ignore_index=True)
     return merged_df
