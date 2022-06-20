@@ -25,4 +25,10 @@ Run:
 ```
 python sanity_check/length-confirmation.py
 ```
-to get terminal outputs relating to the lenght of the original and compacted csv files.
+To get terminal outputs relating to the lenght of the original and compacted csv files.
+### Value Confirmations
+Run:
+```
+python sanity_check/bug-fixing.py
+```
+To get lcoe values printed out for all cities in every document including the original, the compacted and the all_cities.csv files to compare if the values are set right in the final generated document.
