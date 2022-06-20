@@ -19,3 +19,10 @@ Uses the compacted csv files for each city to generate one big csv file with all
 ```
 pyhton merger.py
 ```
+## Sanity Checks
+### Length Confirmations
+Run:
+```
+python length-confirmation.py
+```
+to get terminal outputs relating to the lenght of the original and compacted csv files.
